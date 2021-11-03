@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-"""
+#"""
 #Lectira del dataset
 movies = pd.read_csv(r'C:\Users\largo\Documents\JDC\2021-2\DATA SIENCE\ProyectoDataSciencie\imbd\peliculas.csv', encoding='utf-8')
 
@@ -63,7 +63,7 @@ X.columns = movies_v2.columns
 X.index = movies_v2.index
 
 X.to_csv(r'C:\Users\largo\Documents\JDC\2021-2\DATA SIENCE\ProyectoDataSciencie\imbd\X.csv', index=False)
-"""
-
 
 plt.show()
+
+#"""
